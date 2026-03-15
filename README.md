@@ -11,7 +11,7 @@ This repository documents the security hardening of an Ubuntu 24.04 LTS server. 
 * **Identity Management:** Hardened `/etc/login.defs` and SSH daemon parameters.
 
 ## Documentation
-* **Full Audit Report:** lynis-audit-results.txt.
+* **Full Audit Report:** [lynis-audit-results.txt.](https://github.com/Princess2630/Linux-Hardening-Fortress/blob/5090cd4744e543c4057b786d8c1b85fe606e27fe/lynis-audit-results.txt)
 * **Remediation To-Do List:**
   - [ ] Implement `auditd` for system-wide logging.
   - [ ] Configure GRUB bootloader password protection [BOOT-5122].
