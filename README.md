@@ -11,7 +11,7 @@ This repository documents the security hardening of an Ubuntu 24.04 LTS server. 
 * **Identity Management:** Hardened `/etc/login.defs` and SSH daemon parameters.
 
 ## Documentation
-* **Full Audit Report:** [Link to initial_audit_report.txt](./initial_audit_report.txt)
+* **Full Audit Report:** lynis-audit-results.txt.
 * **Remediation To-Do List:**
   - [ ] Implement `auditd` for system-wide logging.
   - [ ] Configure GRUB bootloader password protection [BOOT-5122].
