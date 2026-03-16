@@ -5,7 +5,7 @@
 This repository documents the security hardening of an Ubuntu 24.04 LTS server. The goal is to move from a default configuration to a high-security environment based on the Lynis auditing framework.
 
 ##  Key Achievements
-* **Hardening Score:** Achieved a **67 Index** after initial remediation steps.
+* **Hardening Score:** Achieved a **![67 Index](hardening_score..png)** after initial remediation steps.
 * **Intrusion Prevention:** Deployed **Fail2Ban**; verified via stress test where the system automatically banned a brute-force IP.
 * **Firewall Integrity:** Configured **UFW** to drop unauthorized traffic, resulting in a stealth "Connection timed out" state for blocked users.
 * **Identity Management:** Hardened `/etc/login.defs` and SSH daemon parameters.
